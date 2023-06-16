@@ -25,6 +25,9 @@ const (
 	CipherType_AES_256_GCM       CipherType = 2
 	CipherType_CHACHA20_POLY1305 CipherType = 3
 	CipherType_NONE              CipherType = 4
+	CipherType_CHACHA20_IETF     CipherType = 5
+	CipherType_AES_256_CFB       CipherType = 6
+	CipherType_AES_128_CFB       CipherType = 7
 )
 
 // Enum value maps for CipherType.
